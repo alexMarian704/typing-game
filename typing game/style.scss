@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background: linear-gradient(#e66465, #9198e5);
+    background-repeat: no-repeat;
+}
+
+select{
+    margin-left: 10px;
+    width: 100px;
+    text-align: center;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    box-shadow: 0px 0px 2px 3px rgba(255, 255, 255, 0.24);
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+}
+
+nav{
+    width: 100vw;
+    background-color: transparent;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 15px 7px rgba(255, 255, 255, 0.44);
+    transform: translateY(0%);
+    transition: transform 820ms ease-in-out;
+}
+
+#container{
+    width: 600px;
+    height: 300px;
+    margin: auto;
+    margin-top: 200px;
+    text-align: center;
+    box-shadow: 0px 0px 4px 5px rgba(255, 255, 255, 0.44);
+    position: relative;
+    border-radius: 10px;
+}
+
+#stats{
+    display: flex;
+    justify-content: space-around;
+}
+
+p{
+    font-size: 35px;
+    margin-top: 10px;
+}
+
+#wordContainer{
+    // border: 2px solid black; 
+    width: 300px;
+    height: 130px;
+    position: absolute;
+    bottom: 50px;
+}
+
+input{
+    width: 250px;
+    border-radius: 7px;
+    outline: none;
+    height: 30px;
+    border: none;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 8px 5px rgba(255, 255, 255, 0.44);
+    text-align: center;
+}
+
+#start{
+    width: 60px;
+    height: 25px;
+    border: none;
+    border-radius: 7px;
+    outline: none;
+    cursor: pointer;
+}
+
+#start:hover{
+    background-color: #e66465;
+}
+
+#navToggle{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 8px 5px rgba(202, 201, 201, 0.24);
+    position: absolute;
+    bottom: 50px;
+    left: 30px;
+    font-size: 20px;
+    text-align: center;
+    background: linear-gradient(#ee6666 , #d6c7c7);
+}
+
+#navToggle:hover{
+    background: linear-gradient(#ca6868, #bd7a7a);
+}
+
+#reset{
+    position: absolute;
+    visibility: hidden;
+    bottom: -30px;
+    left: 41%;
+    width: 58px;
+    height: 26px;
+    border-radius: 7px;
+    outline: none;
+    border: none;
+}
+
+#reset:hover{
+    background-color:#e66465;
+}
